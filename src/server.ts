@@ -24,7 +24,11 @@ app.use('/api/users', usersRouter)
 app.use('/api/orders', ordersRouter)
 app.use('/api/products', productsRouter)
 app.use('/api/categories',categoryRouter )
-
+app.get('/',(req,res)=>{
+  res.json({
+    msg:"hello!",
+  })
+})
 app.use(apiErrorHandler)
 
 mongoose
