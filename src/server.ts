@@ -15,7 +15,9 @@ const app = express()
 const PORT = dev.app.port ||8080
 const URL = dev.app.db as string
 
-app.use(myLogger)
+if (process.env.NODE_ENV === 'development') {
+  app.use(myLogger)
+}
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use('/api/users', usersRouter)
@@ -42,3 +44,5 @@ app.use('/hello', (req,res)=>{
 app.listen(PORT, () => {
   console.log('Server running http://localhost:' + PORT)
 })
+
+export default app
