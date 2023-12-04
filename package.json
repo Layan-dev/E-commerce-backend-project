@@ -5,9 +5,8 @@
   "license": "MIT",
   "scripts": {
     "ts-watch": "tsc -w",
-    "start": "nodemon dist/server.js",
-    "build": "tsc",
-    "vercel-builder": "echo Layan"
+    "start": "nodemon dist/server.js"
+
   },
   "dependencies": {
     "@types/bcrypt": "^5.0.2",
