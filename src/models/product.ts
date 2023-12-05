@@ -1,8 +1,6 @@
 import mongoose from 'mongoose'
 
-export type ProductDocument = Document & {
-  name: string
-}
+import { ProductDocument } from '../types'
 
 const productSchema = new mongoose.Schema({
   name: {
@@ -30,7 +28,6 @@ const productSchema = new mongoose.Schema({
   category: {
     type: [mongoose.Schema.Types.ObjectId],
     ref: 'Category',
-   
   },
   variants: {
     type: [
@@ -48,5 +45,4 @@ const productSchema = new mongoose.Schema({
   },
 })
 
-//const Product = mongoose.model('Product',productSchema );
-export default mongoose.model('Product', productSchema)
+export default mongoose.model<ProductDocument>('Product', productSchema)

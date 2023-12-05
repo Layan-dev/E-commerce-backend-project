@@ -21,129 +21,369 @@ Method: GET, Path: /api/orders, Date: 9/19/2022, Time: 2:34:50 PM
 Method: POST, Path: /api/orders, Date: 9/19/2022, Time: 2:42:48 PM
 Method: POST, Path: /api/orders, Date: 9/19/2022, Time: 2:45:24 PM
 Method: GET, Path: /api/users, Date: 9/19/2022, Time: 2:48:09 PM
-Method: GET, Path: /api/users, Date: 9/19/2022, Time: 2:48:24 PM
-Method: GET, Path: /hello, Date: ٦‏/٥‏/١٤٤٥ هـ, Time: ٣:٢٢:٤٥ م
-Method: GET, Path: /hello, Date: ٦‏/٥‏/١٤٤٥ هـ, Time: ٣:٢٣:٣٥ م
-Method: GET, Path: /hello, Date: ٦‏/٥‏/١٤٤٥ هـ, Time: ٣:٢٦:٣٥ م
-Method: GET, Path: /, Date: ٦‏/٥‏/١٤٤٥ هـ, Time: ٣:٥٤:٣٩ م
-Method: GET, Path: /api/hello, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٤:٣٩:٢٩ م
-Method: GET, Path: /, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٥:٤٢:٥٠ م
-Method: GET, Path: /api/3003, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٥:٤٣:٢٨ م
-Method: GET, Path: /api/hello, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٥:٤٣:٣٦ م
-Method: GET, Path: /api/hello, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٦:٠٧:٢٣ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٦:٢٥:١٨ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٦:٥٤:٣٦ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٦:٥٥:٥١ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٧:٠٣:٠٨ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٧:٠٣:٢٢ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٧:٠٥:٣٩ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٧:٠٧:٤٧ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٧:٢٢:٤٨ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٣١:٤٧ م
-Method: DELETE, Path: /api/products/655cd5d39ce49a32ca1d7841, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٣٢:١٣ م
-Method: DELETE, Path: /api/products/655cd5d39ce49a32ca1d7841, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٣٣:٥٩ م
-Method: DELETE, Path: /api/products/655cd5d39ce49a32ca1d7841, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٣٥:١٧ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٣٥:٣٢ م
-Method: DELETE, Path: /api/products/655cd5d39ce49a32ca1d7841, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٣٦:٠٣ م
-Method: DELETE, Path: /api/products/655cd5d39ce49a32ca1d7841, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٣٧:٠٣ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٣٧:١٩ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٤٤:٥٧ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٤٥:٠٧ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٤٧:٣٠ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٤٩:٣٢ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٥٤:٣٠ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ٩:٥٧:٢٠ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٠٨:٤١ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٠٨:٥٧ م
-Method: GET, Path: /products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:١٣:١٩ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:١٣:٤٠ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:١٧:٠٣ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:١٨:٢٨ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٢١:١٣ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٢٣:٤٧ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٢٤:٣٥ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٢٩:٠٨ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٢٩:٣٨ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٤١:٤١ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٤٣:٥٤ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٤٤:٤١ م
-Method: GET, Path: /api/products/%22655cfab321cd5f4222a989c2%22, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١٠:٤٦:٠٢ م
-Method: GET, Path: /api/products/655cfab321cd5f4222a989c2, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:١١:٠١ م
-Method: GET, Path: /api/products/655cfab321cd5f4222a989c2, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:١٤:٠٤ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٥:٤٤ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٨:١٩ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٤١:١٩ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٦:٤٦ م
-Method: POST, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٧:٠١ م
-Method: GET, Path: /api/products, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٧:١١ م
-Method: GET, Path: /api/products/, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٧:٣٦ م
-Method: GET, Path: /api/products/655d199db05044c73afe27d4, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٧:٥٣ م
-Method: PUT, Path: /api/products/655d199db05044c73afe27d4, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٨:٤٧ م
-Method: PUT, Path: /api/products/655d199db05044c73afe27d4, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٩:١٢ م
-Method: DELETE, Path: /api/products/655d199db05044c73afe27d4, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٩:٢٧ م
-Method: GET, Path: /api/products/655d199db05044c73afe27d4, Date: ٧‏/٥‏/١٤٤٥ هـ, Time: ١١:٥٩:٣٦ م
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١٢:٠٠:٢٨ ص
-Method: GET, Path: /products, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٧:٤٣ ص
-Method: GET, Path: /products, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٨:١٦ ص
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٨:٣٥ ص
-Method: GET, Path: /api/products//category/%7B1%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٨:٥٧ ص
-Method: GET, Path: /api/products/category/%7B1%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٩:١٢ ص
-Method: GET, Path: /api/products/category/%7B1%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٩:٢٨ ص
-Method: GET, Path: /api/products/variant/%7B1000%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٤١:٤٣ ص
-Method: GET, Path: /api/products/variant/%7B'1000'%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٤٢:٠٢ ص
-Method: GET, Path: /api/products/variant/%7B'1000'%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ١١:٤٢:٤١ ص
-Method: GET, Path: /api/products/filter/%7B'1000'%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٠١:٣٩ م
-Method: GET, Path: /api/products/filter/%7B1000%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٠٢:٤٧ م
-Method: GET, Path: /api/products/%7B1000%7D, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٠٣:٢٦ م
-Method: GET, Path: /api/products/variant, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:١٠:١٨ م
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:١١:٥٣ م
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:١٢:١٥ م
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:١٢:١٩ م
-Method: POST, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:١٨:٠٤ م
-Method: POST, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٢١:٠١ م
-Method: GET, Path: /api/categories/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٣٠:٠٠ م
-Method: POST, Path: /api/categories/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٣٢:١٧ م
-Method: POST, Path: /api/categories/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٣٤:١١ م
-Method: POST, Path: /api/categories/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٣٤:٤٥ م
-Method: POST, Path: /api/categories/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٣٥:٠٠ م
-Method: POST, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٣٥:٥٥ م
-Method: POST, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٣٦:٤١ م
-Method: GET, Path: /api/categories/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٣٩:٥٠ م
-Method: GET, Path: /api/categories/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٠:١١ م
-Method: POST, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٢:١٦ م
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٣:٥٥ م
-Method: GET, Path: /api/products, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٤:٢٥ م
-Method: GET, Path: /api/categories, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٨:٠٧ م
-Method: POST, Path: /api/categories, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٨:٤٥ م
-Method: POST, Path: /api/categories, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٨:٥٨ م
-Method: POST, Path: /api/categories, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٩:١١ م
-Method: GET, Path: /api/categories, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٤٩:٥٩ م
-Method: POST, Path: /api/products, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٥٢:٠٧ م
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٣:٥٤:٠٣ م
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٨:٤٩:٥٢ م
-Method: GET, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٨:٥١:١٦ م
-Method: POST, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٨:٥٤:٤٤ م
-Method: POST, Path: /api/products/, Date: ٨‏/٥‏/١٤٤٥ هـ, Time: ٨:٥٦:٥٧ م
-Method: POST, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٢٨:٥٥ ص
-Method: POST, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٢٩:١١ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٠:٥٢ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣١:١٩ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣١:٥٥ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٢:١٣ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٥:٣٩ ص
-Method: POST, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٦:٤٠ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٦:٥٢ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٨:٠٥ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٣٨:٥٤ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٤١:١٣ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٤١:٢٨ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٤٦:٥٥ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١١:٤٧:٠٨ ص
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١:١٢:٢٣ م
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١:١٧:١٦ م
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١:٢٠:٤٢ م
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١:٢٠:٥٣ م
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١:٢٢:٥١ م
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١:٢٧:٤٩ م
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١:٢٨:٠٧ م
-Method: GET, Path: /api/products/, Date: ٩‏/٥‏/١٤٤٥ هـ, Time: ١:٢٩:٠٣ م
+Method: GET, Path: /api/users/, Date: 11/29/2023, Time: 1:58:33 PM
+Method: GET, Path: /api/users, Date: 11/29/2023, Time: 1:58:54 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 1:59:32 PM
+Method: DELETE, Path: /api/users/65670f5d4a12a7967718b2c7, Date: 11/29/2023, Time: 1:59:47 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 1:59:56 PM
+Method: DELETE, Path: /api/users/65670f5d4a12a7967718b2c7, Date: 11/29/2023, Time: 2:09:02 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 2:09:06 PM
+Method: GET, Path: /api/auth/activateUser/f664fdda698ac14e03411bf86d59d6957b09e581440c65c9f2cf0e0eeeacf2b5, Date: 11/29/2023, Time: 2:09:13 PM
+Method: GET, Path: /favicon.ico, Date: 11/29/2023, Time: 2:09:13 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 2:09:47 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 2:40:16 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 2:40:48 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 2:41:20 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 2:43:12 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 2:46:59 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 2:47:21 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 2:47:51 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 2:51:26 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 3:04:37 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 9:33:45 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 9:33:46 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 9:33:50 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 9:34:05 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:53:16 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:54:44 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:54:45 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:54:46 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:55:16 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:55:17 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:56:27 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:56:27 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:56:33 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 9:56:43 PM
+Method: DELETE, Path: /api/users/6567889dcb4fee35ee61de6f, Date: 11/29/2023, Time: 9:57:01 PM
+Method: DELETE, Path: /api/users/6567889dcb4fee35ee61de6f, Date: 11/29/2023, Time: 9:57:03 PM
+Method: DELETE, Path: /api/users/6567889dcb4fee35ee61de6f, Date: 11/29/2023, Time: 9:57:40 PM
+Method: DELETE, Path: /api/users/6567889dcb4fee35ee61de6f, Date: 11/29/2023, Time: 9:57:42 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 9:57:51 PM
+Method: DELETE, Path: /api/users/6567889dcb4fee35ee61de6f, Date: 11/29/2023, Time: 9:58:20 PM
+Method: DELETE, Path: /api/users/6567889dcb4fee35ee61de6f, Date: 11/29/2023, Time: 10:03:42 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 10:03:52 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 10:03:54 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 10:04:19 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 10:04:20 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 10:44:44 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 10:44:52 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 10:44:54 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 10:59:26 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 10:59:28 PM
+Method: GET, Path: /api/auth/activateUser/68ddce249ddb594a142e0ae3a97981cd683a985cc59b956bb47bae2f21e45b0f, Date: 11/29/2023, Time: 11:00:11 PM
+Method: GET, Path: /favicon.ico, Date: 11/29/2023, Time: 11:00:12 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 11:00:16 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:00:21 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:00:22 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 11:01:05 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:01:17 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:01:18 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:02:28 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:02:29 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:03:47 PM
+Method: POST, Path: /api/auth//login, Date: 11/29/2023, Time: 11:24:25 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 11:30:15 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:30:52 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:34:02 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:34:20 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:34:22 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:34:30 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655cb90ffb79389013f3463c, Date: 11/29/2023, Time: 11:34:45 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655d14748a3afc09723aa110, Date: 11/29/2023, Time: 11:35:00 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:35:05 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655d15b314c713bf33c2fee0, Date: 11/29/2023, Time: 11:35:45 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655d15b314c713bf33c2fee0, Date: 11/29/2023, Time: 11:35:52 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:35:58 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:35:59 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:36:01 PM
+Method: DELETE, Path: /api/users/admin/deleteUser/655d15b314c713bf33c2fee0, Date: 11/29/2023, Time: 11:36:15 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 11:36:31 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 11:36:37 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:36:40 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 11:36:50 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 11:48:16 PM
+Method: POST, Path: /api/auth/register, Date: 11/29/2023, Time: 11:58:57 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 11:59:06 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 11:59:33 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 11:59:34 PM
+Method: POST, Path: /api/auth/login, Date: 11/29/2023, Time: 11:59:38 PM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/29/2023, Time: 11:59:52 PM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 12:01:10 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 12:01:21 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 12:01:53 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/655d15b314c713bf33c2fee0, Date: 11/30/2023, Time: 12:02:05 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/655d2de861cad7367f078cbd, Date: 11/30/2023, Time: 12:02:19 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/655d2f6561cad7367f078cc4, Date: 11/30/2023, Time: 12:02:39 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 12:03:02 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 12:03:03 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 12:03:06 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/6566228b18ba40ced6da0cb5, Date: 11/30/2023, Time: 12:03:19 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/6563c8b5760b6596928b5cfe, Date: 11/30/2023, Time: 12:03:35 AM
+Method: PUT, Path: /api/users/, Date: 11/30/2023, Time: 12:06:27 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:07:00 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:07:10 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:34:28 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:35:09 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:35:50 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:36:00 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:36:01 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:36:07 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:41:14 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:41:29 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:41:44 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 12:42:21 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 12:42:33 AM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/30/2023, Time: 12:42:50 AM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/30/2023, Time: 12:42:51 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 12:42:54 AM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/30/2023, Time: 12:43:09 AM
+Method: GET, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 12:44:39 AM
+Method: GET, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 12:44:41 AM
+Method: POST, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 12:45:02 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 1:18:20 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 1:18:22 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 1:18:23 AM
+Method: GET, Path: /api/products/, Date: 11/30/2023, Time: 1:18:49 AM
+Method: GET, Path: /api/products/, Date: 11/30/2023, Time: 1:18:50 AM
+Method: GET, Path: /api/products/, Date: 11/30/2023, Time: 1:19:11 AM
+Method: GET, Path: /api/products/, Date: 11/30/2023, Time: 1:19:21 AM
+Method: GET, Path: /api/products/, Date: 11/30/2023, Time: 1:19:24 AM
+Method: GET, Path: /api/products/, Date: 11/30/2023, Time: 1:19:32 AM
+Method: GET, Path: /api/products/655ef61d70b85cc8b7ee8be0, Date: 11/30/2023, Time: 1:20:37 AM
+Method: GET, Path: /api/products/655ef670b85cc8b7ee8be0, Date: 11/30/2023, Time: 1:20:44 AM
+Method: GET, Path: /api/products/655ef670b85cc8b7ee8be0, Date: 11/30/2023, Time: 1:22:44 AM
+Method: GET, Path: /api/products/655ef670b85cc8b7ee8be0, Date: 11/30/2023, Time: 1:22:46 AM
+Method: GET, Path: /api/products/655ef61d70b85cc8b7ee8be0, Date: 11/30/2023, Time: 1:23:00 AM
+Method: DELETE, Path: /api/products/655ef61d70b85cc8b7ee8be0, Date: 11/30/2023, Time: 1:23:11 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 1:25:32 AM
+Method: DELETE, Path: /api/products/655ef61d70b85cc8b7ee8be0, Date: 11/30/2023, Time: 1:25:47 AM
+Method: DELETE, Path: /api/products/655f34ca35045d69f9bec0ca, Date: 11/30/2023, Time: 1:26:08 AM
+Method: DELETE, Path: /api/products/655ef63b70b85cc8b7ee8be2, Date: 11/30/2023, Time: 1:26:56 AM
+Method: PUT, Path: /api/products/, Date: 11/30/2023, Time: 1:27:25 AM
+Method: PUT, Path: /api/products/, Date: 11/30/2023, Time: 1:27:33 AM
+Method: PUT, Path: /api/products/655dde63edb445b1556ebf32, Date: 11/30/2023, Time: 1:27:50 AM
+Method: PUT, Path: /api/products/655dde63edb445b1556ebf32, Date: 11/30/2023, Time: 1:33:32 AM
+Method: GET, Path: /api/categories/, Date: 11/30/2023, Time: 1:36:29 AM
+Method: GET, Path: /api/categories/655ef56d70b85cc8b7ee8bd5, Date: 11/30/2023, Time: 1:36:49 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:37:45 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:38:16 AM
+Method: GET, Path: /api/categories/, Date: 11/30/2023, Time: 1:39:17 AM
+Method: PUT, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:39:44 AM
+Method: PUT, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:39:57 AM
+Method: PUT, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:40:03 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:40:09 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:40:15 AM
+Method: PUT, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:40:42 AM
+Method: DELETE, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:40:46 AM
+Method: DELETE, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:42:11 AM
+Method: GET, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:43:07 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:43:50 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:43:57 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:44:05 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:45:46 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 1:46:33 AM
+Method: DELETE, Path: /api/categories/6567bf4989ffad7dab2a46e8, Date: 11/30/2023, Time: 1:46:48 AM
+Method: GET, Path: /api/categories/6567bf4989ffad7dab2a46e8, Date: 11/30/2023, Time: 1:46:58 AM
+Method: GET, Path: /api/categories/6567bd395f2940b4c46fb3e3, Date: 11/30/2023, Time: 1:47:09 AM
+Method: PUT, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:47:31 AM
+Method: PUT, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:47:32 AM
+Method: PUT, Path: /api/categories/655ef5af70b85cc8b7ee8bdb, Date: 11/30/2023, Time: 1:47:35 AM
+Method: PUT, Path: /api/categories/655ef56d70b85cc8b7ee8bd5, Date: 11/30/2023, Time: 1:48:37 AM
+Method: PUT, Path: /api/categories/655ef56d70b85cc8b7ee8bd5, Date: 11/30/2023, Time: 1:48:48 AM
+Method: GET, Path: /api/categories/, Date: 11/30/2023, Time: 1:49:09 AM
+Method: POST, Path: /api/products/, Date: 11/30/2023, Time: 1:50:40 AM
+Method: POST, Path: /api/products/, Date: 11/30/2023, Time: 1:51:05 AM
+Method: POST, Path: /api/products/, Date: 11/30/2023, Time: 1:52:04 AM
+Method: POST, Path: /api/products/, Date: 11/30/2023, Time: 1:52:42 AM
+Method: GET, Path: /api/products/6567c0bae3baa7ec7416aa1a, Date: 11/30/2023, Time: 1:54:18 AM
+Method: GET, Path: /api/products/, Date: 11/30/2023, Time: 1:54:25 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 1:54:41 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 1:56:37 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 1:59:57 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:00:03 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:00:13 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:00:20 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:00:29 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:00:50 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:01:01 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:01:16 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:01:29 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:02:16 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:02:38 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:03:02 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:03:50 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:04:12 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:04:27 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:04:32 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:04:57 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:05:35 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:07:01 AM
+Method: POST, Path: /api/products/, Date: 11/30/2023, Time: 2:07:43 AM
+Method: POST, Path: /api/products/, Date: 11/30/2023, Time: 2:08:16 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:08:22 AM
+Method: DELETE, Path: /api/products/655dde63edb445b1556ebf32, Date: 11/30/2023, Time: 2:08:46 AM
+Method: DELETE, Path: /api/products/655dde8aedb445b1556ebf34, Date: 11/30/2023, Time: 2:08:58 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:09:02 AM
+Method: DELETE, Path: /api/products/655dde8aedb445b1556ebf36, Date: 11/30/2023, Time: 2:09:14 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:09:17 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:09:34 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:10:04 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:10:15 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:10:21 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:11:11 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:11:15 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:11:52 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:11:56 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:12:21 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:12:29 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:12:38 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:12:44 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:13:07 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:13:21 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:13:29 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:13:43 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:13:44 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:13:44 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:13:45 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:13:46 AM
+Method: PUT, Path: /api/products/655f34db35045d69f9bec0cc, Date: 11/30/2023, Time: 2:16:16 AM
+Method: GET, Path: /api/orders/, Date: 11/30/2023, Time: 2:19:02 AM
+Method: GET, Path: /api/orders/, Date: 11/30/2023, Time: 2:19:04 AM
+Method: GET, Path: /api/orders/, Date: 11/30/2023, Time: 2:30:55 AM
+Method: GET, Path: /api/orders/, Date: 11/30/2023, Time: 2:31:11 AM
+Method: GET, Path: /api/orders/, Date: 11/30/2023, Time: 2:31:12 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 2:33:14 AM
+Method: POST, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 2:35:03 AM
+Method: POST, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 2:35:08 AM
+Method: POST, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 2:35:15 AM
+Method: POST, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 2:35:24 AM
+Method: POST, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 2:35:56 AM
+Method: GET, Path: /api/orders/, Date: 11/30/2023, Time: 2:36:06 AM
+Method: GET, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:36:37 AM
+Method: GET, Path: /api/orders, Date: 11/30/2023, Time: 2:36:45 AM
+Method: GET, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:36:49 AM
+Method: PUT, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:40:31 AM
+Method: PUT, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:40:46 AM
+Method: DELETE, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:42:01 AM
+Method: DELETE, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:42:30 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 2:42:43 AM
+Method: DELETE, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:42:56 AM
+Method: DELETE, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:46:27 AM
+Method: GET, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:46:39 AM
+Method: GET, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:46:40 AM
+Method: DELETE, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:46:50 AM
+Method: DELETE, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:46:52 AM
+Method: DELETE, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:47:14 AM
+Method: DELETE, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 2:47:27 AM
+Method: DELETE, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 2:48:05 AM
+Method: GET, Path: /api/orders, Date: 11/30/2023, Time: 2:49:26 AM
+Method: GET, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:49:33 AM
+Method: GET, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:49:35 AM
+Method: GET, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 2:49:48 AM
+Method: GET, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 2:52:02 AM
+Method: GET, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 2:52:05 AM
+Method: GET, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 2:52:06 AM
+Method: GET, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 2:52:30 AM
+Method: GET, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 2:53:31 AM
+Method: PUT, Path: /api/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:53:53 AM
+Method: POST, Path: /api/users/admin/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:55:48 AM
+Method: POST, Path: /api/users/admin/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:56:15 AM
+Method: PUT, Path: /api/users/admin/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:56:22 AM
+Method: PUT, Path: /api/users/admin/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:56:35 AM
+Method: PUT, Path: /api/users/admin/orders/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:57:48 AM
+Method: PUT, Path: /api/users/admin/orders/updatestatus/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:58:11 AM
+Method: PUT, Path: /api/users/admin/orders/updatestatus/6567cabcaaaf6cce555c9fa8, Date: 11/30/2023, Time: 2:58:15 AM
+Method: GET, Path: /api/users/addToCart, Date: 11/30/2023, Time: 3:05:13 AM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/30/2023, Time: 3:06:27 AM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/30/2023, Time: 3:06:42 AM
+Method: GET, Path: /api/users/addToCart, Date: 11/30/2023, Time: 3:07:01 AM
+Method: GET, Path: /api/users/addToCart, Date: 11/30/2023, Time: 3:07:02 AM
+Method: POST, Path: /api/users/addToCart, Date: 11/30/2023, Time: 3:07:09 AM
+Method: POST, Path: /api/users/addToCart, Date: 11/30/2023, Time: 3:07:11 AM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/30/2023, Time: 3:07:30 AM
+Method: POST, Path: /api/users/addToCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:07:32 AM
+Method: POST, Path: /api/users/addToCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:09:41 AM
+Method: POST, Path: /api/users/addToCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:09:45 AM
+Method: POST, Path: /api/users/addToCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:09:55 AM
+Method: DELETE, Path: /api/users//deleteFromCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:15:07 AM
+Method: DELETE, Path: /api/users//deleteFromCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:15:09 AM
+Method: DELETE, Path: /api/users/deleteFromCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:15:12 AM
+Method: DELETE, Path: /api/users/deleteFromCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:15:13 AM
+Method: DELETE, Path: /api/users/deleteFromCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:15:24 AM
+Method: DELETE, Path: /api/users/deleteFromCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:15:25 AM
+Method: DELETE, Path: /api/users/deleteFromCart/6567d2457b2828a6943ed58e, Date: 11/30/2023, Time: 3:15:37 AM
+Method: DELETE, Path: /api/users/deleteFromCart/6567d2457b2828a6943ed58e, Date: 11/30/2023, Time: 3:16:04 AM
+Method: DELETE, Path: /api/users/deleteFromCart/6567d2457b2828a6943ed58e, Date: 11/30/2023, Time: 3:16:05 AM
+Method: DELETE, Path: /api/users/deleteFromCart/6567d2457b2828a6943ed58e, Date: 11/30/2023, Time: 3:16:21 AM
+Method: DELETE, Path: /api/users/deleteFromCart/6567d2457b2828a6943ed58e, Date: 11/30/2023, Time: 3:16:23 AM
+Method: DELETE, Path: /api/users/deleteFromCart/6567d2c97b2828a6943ed592, Date: 11/30/2023, Time: 3:16:33 AM
+Method: DELETE, Path: /api/users/deleteFromCart/6567d2d37b2828a6943ed596, Date: 11/30/2023, Time: 3:16:42 AM
+Method: POST, Path: /api/users/addToCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:16:52 AM
+Method: POST, Path: /api/users/addToCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:17:12 AM
+Method: POST, Path: /api/users/addToCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:19:04 AM
+Method: POST, Path: /api/users/addToCart/655d1a79475d7df362cbcc1d, Date: 11/30/2023, Time: 3:19:52 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:20:15 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:20:59 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:21:40 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:22:11 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:22:54 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:24:22 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:25:08 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:25:32 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:26:26 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:26:37 AM
+Method: POST, Path: /api/users/addToCart/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 3:27:33 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 8:53:01 AM
+Method: GET, Path: /api/categories/, Date: 11/30/2023, Time: 8:55:28 AM
+Method: PUT, Path: /api/categories/655ef56d70b85cc8b7ee8bd5, Date: 11/30/2023, Time: 8:56:31 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 9:05:07 AM
+Method: POST, Path: /api/auth/register, Date: 11/30/2023, Time: 9:05:23 AM
+Method: GET, Path: /api/auth/activateUser/310113fbd2e2ed5bed69cf34d8be35506bc1265bda32a1b7cdfe402f6f76b601, Date: 11/30/2023, Time: 9:05:43 AM
+Method: GET, Path: /favicon.ico, Date: 11/30/2023, Time: 9:05:44 AM
+Method: POST, Path: /api/auth/register, Date: 11/30/2023, Time: 9:06:08 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 9:06:14 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 9:06:37 AM
+Method: PUT, Path: /api/users/profile/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 9:06:58 AM
+Method: PUT, Path: /api/users/profile/65682623ea20c82245bde1ac, Date: 11/30/2023, Time: 9:08:41 AM
+Method: GET, Path: /api/categories/, Date: 11/30/2023, Time: 9:13:09 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 9:13:20 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 9:13:59 AM
+Method: PUT, Path: /api/categories/655ef56d70b85cc8b7ee8bd5, Date: 11/30/2023, Time: 9:14:21 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 9:16:14 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 9:16:17 AM
+Method: POST, Path: /api/auth/register, Date: 11/30/2023, Time: 9:25:59 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/656719aec6ce0f15541de427, Date: 11/30/2023, Time: 9:26:03 AM
+Method: POST, Path: /api/auth/register, Date: 11/30/2023, Time: 9:26:07 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/65682623ea20c82245bde1ac, Date: 11/30/2023, Time: 9:26:23 AM
+Method: POST, Path: /api/auth/register, Date: 11/30/2023, Time: 9:26:27 AM
+Method: GET, Path: /api/auth/activateUser/310113fbd2e2ed5bed69cf34d8be35506bc1265bda32a1b7cdfe402f6f76b601, Date: 11/30/2023, Time: 9:26:42 AM
+Method: GET, Path: /api/auth/activateUser/9cd7502207f3d6b2e4287473a3c9f0b35eea77101c61983b4a8572c1340482b2, Date: 11/30/2023, Time: 9:26:52 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 9:27:00 AM
+Method: POST, Path: /api/auth/login, Date: 11/30/2023, Time: 9:27:07 AM
+Method: GET, Path: /api/users/admin/getAllUsers, Date: 11/30/2023, Time: 9:27:14 AM
+Method: DELETE, Path: /api/users/admin/deleteUser/65682623ea20c82245bde1ac, Date: 11/30/2023, Time: 9:27:22 AM
+Method: GET, Path: /api/orders, Date: 11/30/2023, Time: 9:27:39 AM
+Method: GET, Path: /api/orders/6567cab3aaaf6cce555c9fa6, Date: 11/30/2023, Time: 9:27:43 AM
+Method: POST, Path: /api/users/orders/addNewOrder, Date: 11/30/2023, Time: 9:27:54 AM
+Method: GET, Path: /api/orders/65682b6a3ae0d78864530374, Date: 11/30/2023, Time: 9:28:03 AM
+Method: PUT, Path: /api/users/admin/orders/65682b6a3ae0d78864530374, Date: 11/30/2023, Time: 9:28:32 AM
+Method: PUT, Path: /api/users/admin/orders/updatestatus/65682b6a3ae0d78864530374, Date: 11/30/2023, Time: 9:28:51 AM
+Method: PUT, Path: /api/users/admin/orders/updatestatus/65682b6a3ae0d78864530374, Date: 11/30/2023, Time: 9:28:56 AM
+Method: DELETE, Path: /api/orders/65682b6a3ae0d78864530374, Date: 11/30/2023, Time: 9:29:09 AM
+Method: GET, Path: /api/categories/, Date: 11/30/2023, Time: 9:29:31 AM
+Method: GET, Path: /api/categories/6567bd395f2940b4c46fb3e3, Date: 11/30/2023, Time: 9:29:38 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 9:29:55 AM
+Method: POST, Path: /api/categories/, Date: 11/30/2023, Time: 9:30:01 AM
+Method: PUT, Path: /api/categories/655ef56d70b85cc8b7ee8bd5, Date: 11/30/2023, Time: 9:30:13 AM
+Method: PUT, Path: /api/categories/655ef56d70b85cc8b7ee8bd5, Date: 11/30/2023, Time: 9:30:27 AM
+Method: DELETE, Path: /api/categories/655ef56d70b85cc8b7ee8bd5, Date: 11/30/2023, Time: 9:30:34 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 9:30:46 AM
+Method: GET, Path: /api/products/6567c0bae3baa7ec7416aa1a, Date: 11/30/2023, Time: 9:30:55 AM
+Method: POST, Path: /api/products/, Date: 11/30/2023, Time: 9:31:08 AM
+Method: PUT, Path: /api/products/65682c2c3ae0d7886453038c, Date: 11/30/2023, Time: 9:31:20 AM
+Method: GET, Path: /api/products, Date: 11/30/2023, Time: 9:31:42 AM
+Method: DELETE, Path: /api/products/65682c2c3ae0d7886453038c, Date: 11/30/2023, Time: 9:31:51 AM
+Method: PUT, Path: /api/users/profile/65682b133ae0d78864530369, Date: 12/3/2023, Time: 9:24:33 AM
+Method: PUT, Path: /api/users/profile/65682b133ae0d78864530369, Date: 12/3/2023, Time: 9:24:51 AM
+Method: PUT, Path: /api/users/profile/65682b133ae0d78864530369, Date: 12/3/2023, Time: 9:24:57 AM
+Method: PUT, Path: /api/users/profile/65682b133ae0d78864530369, Date: 12/3/2023, Time: 10:35:52 AM
