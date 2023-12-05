@@ -1,8 +1,8 @@
-import 'dotenv/config';
+import 'dotenv/config'
 
-export const dev={
-    app:{
-        port: process.env.SERVER_PORT,
-    db: process.env.ATLAS_URL
-    } ,
+export const dev = {
+  app: {
+    port: process.env.SERVER_PORT,
+    db: process.env.ATLAS_URL,
+  },
 }
