@@ -8,7 +8,7 @@ import ordersRouter from './routers/orders'
 import categoryRouter from './routers/categories'
 import apiErrorHandler from './middlewares/errorHandler'
 import myLogger from './middlewares/logger'
-import { dev } from './config/index'
+import { dev } from '../src/config/index'
 
 config()
 const app = express()
