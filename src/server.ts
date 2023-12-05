@@ -40,7 +40,7 @@ mongoose
   .catch((err) => {
     console.log('MongoDB connection error, ', err)
   })
-app.use('/hello', (req,res)=>{
+app.use('/', (req,res)=>{
   res.json({
     msg:"hello"
   })
