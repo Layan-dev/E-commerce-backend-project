@@ -8,7 +8,7 @@ import ordersRouter from './routers/orders'
 import categoryRouter from './routers/categories'
 import apiErrorHandler from './middlewares/errorHandler'
 import myLogger from './middlewares/logger'
-import { dev } from '../src/config/index'
+import { dev } from './config/index'
 
 config()
 const app = express()
@@ -40,12 +40,12 @@ mongoose
   .catch((err) => {
     console.log('MongoDB connection error, ', err)
   })
-app.use('/', (req,res)=>{
-  res.json({
-    msg:"hello"
-  })
-  res.end()
-})
+// app.use('/', (req,res)=>{
+//   res.json({
+//     msg:"hello"
+//   })
+//   res.end()
+// })
 app.listen(PORT, () => {
   console.log('Server running http://localhost:' + PORT)
 })

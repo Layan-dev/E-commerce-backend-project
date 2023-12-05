@@ -2,12 +2,10 @@
   "name": "express-demo",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
   "license": "MIT",
   "scripts": {
     "ts-watch": "tsc -w",
     "start": "nodemon dist/server.js",
-    "build":"tsc",
     "vercel-build":"echo layan is here :)"
 
   },
