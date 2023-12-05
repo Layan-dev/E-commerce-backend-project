@@ -6,6 +6,7 @@
   "scripts": {
     "ts-watch": "tsc -w",
     "start": "nodemon dist/server.js"
+    
 
   },
   "dependencies": {
