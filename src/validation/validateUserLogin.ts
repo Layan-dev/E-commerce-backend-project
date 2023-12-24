@@ -2,7 +2,41 @@ import { Request, Response, NextFunction } from 'express'
 import { ZodError, z } from 'zod'
 
 import ApiError from '../errors/ApiError'
-
+export function validateForgotPaswwordUser(req: Request, res: Response, next: NextFunction) {
+  const Schema = z.object({
+    email: z.string().email(),
+  })
+  try {
+    const forgotPassUser = Schema.parse(req.body)
+    req.forgotPassUser = forgotPassUser
+    next()
+  } catch (error) {
+    const err = error
+    if (err instanceof ZodError) {
+      const missingFields = err.errors.map((e) => e.path.join('.'))
+      return next(ApiError.badRequest(`Missing or invalid fields: ${missingFields.join(', ')}`))
+    }
+    next(ApiError.internal('somthing went wrong'))
+  }
+}
+export function validateResetPasswordUser(req: Request, res: Response, next: NextFunction) {
+  const Schema = z.object({
+    password: z.string(),
+    forgotPasswordCode: z.string(),
+  })
+  try {
+    const resetPassUser = Schema.parse(req.body)
+    req.resetPassUser = resetPassUser
+    next()
+  } catch (error) {
+    const err = error
+    if (err instanceof ZodError) {
+      const missingFields = err.errors.map((e) => e.path.join('.'))
+      return next(ApiError.badRequest(`Missing or invalid fields: ${missingFields.join(', ')}`))
+    }
+    next(ApiError.internal('somthing went wrong'))
+  }
+}
 export function validateUserLogin(req: Request, res: Response, next: NextFunction) {
   const userloginSchema = z.object({
     email: z.string().email(),

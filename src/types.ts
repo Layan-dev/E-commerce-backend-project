@@ -19,6 +19,8 @@ export type UserDocument = Document & {
   role: string
   isActive: Boolean
   activationToken: string | undefined
+  forgotPasswordCode: String| undefined
+  
 }
 
 export type CategoryDocument = Document & {

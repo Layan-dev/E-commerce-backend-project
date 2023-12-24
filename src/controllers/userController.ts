@@ -11,6 +11,19 @@ export const getUsers = async (req: Request, res: Response) => {
   })
 }
 
+export const getUserById = async (req: Request, res: Response) => {
+  try {
+    const userId = req.params.userId
+
+    const user = await User.findById({
+      _id: userId,
+    })
+    res.status(200).json(user)
+  } catch (error) {
+    res.status(500).json({ message: 'internal server error' })
+  }
+}
+
 export const deleteUser = async (req: Request, res: Response) => {
   const { userId } = req.params
   await User.deleteOne({
@@ -48,5 +61,13 @@ export const updateUser = async (req: Request, res: Response) => {
   res.status(200).json({
     msg: 'User updated successfully',
     user: updatedUser,
+  })
+}
+export const grantUserRole=async (req:Request, res:Response) => {
+  const userId = req.body.userId
+  const role = req.body.role
+  const user = await User.findOneAndUpdate({ _id: userId }, { role }, { new: true })
+  res.json({
+    user,
   })
 }

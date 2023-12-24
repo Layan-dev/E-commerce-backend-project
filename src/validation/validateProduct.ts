@@ -31,5 +31,6 @@ export function validateProduct(req: Request, res: Response, next: NextFunction)
     }
 
     next(ApiError.internal('Something went wrong'))
+   
   }
 }

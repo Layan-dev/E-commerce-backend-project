@@ -3,48 +3,63 @@ import { NextFunction, Request, Response } from 'express'
 import ApiError from '../errors/ApiError'
 import Product from '../models/product'
 
-type Filter = {
-  variants?: string
-  sizes?: string
-}
+// type Filter = {
+//   variants?: string
+//   sizes?: string
+// }
 
-interface CustomRequest extends Request {
-  filters?: Filter
-}
+// interface CustomRequest extends Request {
+//   filters?: Filter
+// }
 
-export const filterProductByVariantstoSize = async (
-  req: CustomRequest,
-  res: Response,
-  next: NextFunction
-) => {
-  const filters: Filter = {}
-  const variants = req.query.variants
-  const sizes = req.query.sizes
-  if ((variants && typeof variants === 'string') || variants === 'string[]') {
-    filters.variants = variants
-  }
-  if (sizes && typeof sizes === 'string') {
-    filters.sizes = sizes
-  }
-  req.filters = filters
-  next()
-}
+// export const filterProductByVariantstoSize = async (
+//   req: CustomRequest,
+//   res: Response,
+//   next: NextFunction
+// ) => {
+//   const filters: Filter = {}
+//   const variants = req.query.variants
+//   const sizes = req.query.sizes
+//   if ((variants && typeof variants === 'string') || variants === 'string[]') {
+//     filters.variants = variants
+//   }
+//   if (sizes && typeof sizes === 'string') {
+//     filters.sizes = sizes
+//   }
+//   req.filters = filters
+//   next()
+// }
 
 export type SortOrder = 1 | -1
-
-export const getAllProducts = async (req: CustomRequest, res: Response) => {
-  const filters = req.filters || {}
-
+type Filter = {
+  category?: string
+  name?: { $regex: RegExp }
+}
+export const getAllProducts = async (req: Request, res: Response) => {
+  console.log('first')
+  const filters: Filter = {}
   const pageNumber: number = Number(req.query.pageNumber) || 1
-  const perPage: number = Number(req.query.perPage) || 2
+  const perPage: number = Number(req.query.perPage) || 3
+  const categoryId: string = req.query.categoryId as string
   const sortField: string = (req.query.sortField as string) || 'price' // Explicitly assert type, we can sort by name or price or other
-  const sortOrder: SortOrder = req.query.sortOrder === 'desc' ? -1 : 1
+  const sortOrder: SortOrder = req.query.sortOrder === 'dec' ? -1 : 1
   const sortOptions: { [key: string]: SortOrder } = { [sortField]: sortOrder }
+  console.log(sortOptions)
   const search: string = (req.query.search as string) || ''
+  const name = req.query.name
+  // const filterByName = { name: { $regex: search, $options: 'i' } }
+  console.log('categoryId', categoryId)
+  if (categoryId && typeof categoryId === 'string') {
+    //@ts-ignore
+    filters.category = { $in: categoryId }
+  }
 
+  if (search && typeof search === 'string') {
+    filters.name = { $regex: new RegExp(search, 'i') }
+  }
+  console.log(filters)
   try {
     const products = await Product.find(filters)
-      .find({ name: { $regex: search, $options: 'i' } })
       .sort(sortOptions)
       .skip((pageNumber - 1) * perPage)
       .limit(perPage)
@@ -52,9 +67,8 @@ export const getAllProducts = async (req: CustomRequest, res: Response) => {
     // Use $regex to search for documents where the 'name' field
     // matches the specified pattern (provided by the 'search' variable),
     // and $options: 'i' ensures a case-insensitive match.
-    const totalProducts = await Product.countDocuments()
+    const totalProducts = await Product.countDocuments(filters)
     const totalPages = Math.ceil(totalProducts / perPage)
-
     res.json({
       pageNumber,
       perPage,

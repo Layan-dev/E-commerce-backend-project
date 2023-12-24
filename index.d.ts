@@ -7,6 +7,13 @@ declare namespace Express {
       email: string
       password: string
     }
+    forgotPassUser:{
+      email:string
+    }
+    resetPassUser:{
+      password:string
+      forgotPasswordCode:string
+    }
     validateLoginUser: {
       email: string
       password: string
