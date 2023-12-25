@@ -17,7 +17,15 @@ export const getOrders = async (req: Request, res: Response, next: NextFunction)
     next(ApiError.notFound(error.message))
   }
 }
-
+export const getCartByUserId = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const userId = req.params.userId
+    const cart = await Cart.findOne({ userId }).populate('products')
+    res.json(cart)
+  } catch (error: any) {
+    next(ApiError.notFound(error.message))
+  }
+}
 export const getOrderById = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { orderId } = req.params
@@ -47,8 +55,9 @@ export const addToCart = async (req: Request, res: Response, next: NextFunction)
 
   try {
     const userId = req.params.userId
-    const productId = req.body.productId
+    const productIds = req.body.productIds
     const cartId = req.body.cartId
+    const isDecrementing = req.body.isDecrementing || false
 
     const user = await User.findById(userId)
 
@@ -58,31 +67,45 @@ export const addToCart = async (req: Request, res: Response, next: NextFunction)
     }
 
     if (!cartId) {
-      const existingProduct = await Product.findById(productId)
-
-      if (existingProduct) {
+      const existingProducts = await Product.find({ _id: productIds })
+      const totalPrice = existingProducts.reduce((acc, product) => acc + product.price, 0)
+      if (existingProducts.length > 0) {
         const cart = new Cart({
-          products: [productId],
+          products: productIds,
           userId,
-          totalPrice: existingProduct.price,
+          totalPrice,
         })
 
-        await cart.save()
+        await (await cart.save()).populate('products')
         res.status(200).json({ msg: 'cart created successfully', cart })
       } else {
         res.status(404).json({ msg: 'product not found' })
       }
     } else {
       //..push to products and accumulate the total price
-      const cart = await Cart.findOneAndUpdate(
-        { _id: cartId },
-        { $addToSet: { products: productId } }, // Use $addToSet to avoid duplicate product IDs
-        { new: true, upsert: true } // Set upsert to true to create a new cart if it doesn't exist
-      )
-      res.status(200).json({
-        message: 'Product added to the cart successfully',
-        cart,
-      })
+
+      if (isDecrementing) {
+        const cart = await Cart.findById(cartId)
+        if (cart) {
+          const index = cart.products.findIndex((element) => element.toString() === productIds[0])
+          cart.products.splice(index, 1)
+          await (await cart.save()).populate('products')
+          res.status(200).json({
+            message: 'Product added to the cart successfully',
+            cart,
+          })
+        }
+      } else {
+        const cart = await Cart.findOneAndUpdate(
+          { _id: cartId },
+          { $push: { products: productIds } },
+          { new: true, upsert: true } // Set upsert to true to create a new cart if it doesn't exist
+        ).populate('products')
+        res.status(200).json({
+          message: 'Product added to the cart successfully',
+          cart,
+        })
+      }
     }
   } catch (error: any) {
     next(ApiError.badRequest(error.message))

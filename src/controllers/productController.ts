@@ -151,7 +151,7 @@ export const updateProductById = async (req: Request, res: Response) => {
     {
       new: true,
     }
-  )
+  ).populate('category')
 
   res.json({
     newProduct,

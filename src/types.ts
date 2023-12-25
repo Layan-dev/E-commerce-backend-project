@@ -51,4 +51,5 @@ export type Role = 'USER' | 'ADMIN'
 export type CartDocument = Document & {
   name: string
   products: string[]
+  
 }
