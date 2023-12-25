@@ -39,7 +39,7 @@ export const getAllProducts = async (req: Request, res: Response) => {
   console.log('first')
   const filters: Filter = {}
   const pageNumber: number = Number(req.query.pageNumber) || 1
-  const perPage: number = Number(req.query.perPage) || 3
+  const perPage: number = Number(req.query.perPage) || 6
   const categoryId: string = req.query.categoryId as string
   const sortField: string = (req.query.sortField as string) || 'price' // Explicitly assert type, we can sort by name or price or other
   const sortOrder: SortOrder = req.query.sortOrder === 'dec' ? -1 : 1
