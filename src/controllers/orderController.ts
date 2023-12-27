@@ -134,7 +134,10 @@ export const addNewOrder = async (req: Request, res: Response, next: NextFunctio
     })
 
     await order.save()
-    res.json(order)
+    res.json({
+      message: 'Order created successfully',
+      order,
+    })
   } catch (error: any) {
     next(ApiError.badRequest(error.message))
   }
