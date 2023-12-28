@@ -4,13 +4,16 @@ import jwt from 'jsonwebtoken'
 
 import User from '../models/user'
 import ApiError from '../errors/ApiError'
-import { generateActivationToken, sendActivationEmail, sendForgotPasswordEmail } from '../utils/email'
+import {
+  generateActivationToken,
+  sendActivationEmail,
+  sendForgotPasswordEmail,
+} from '../utils/email'
 import { dev } from '../config'
 import { validateResetPasswordUser } from '../validation/validateUserLogin'
 
 export const activateUser = async (req: Request, res: Response, next: NextFunction) => {
   const { activationToken } = req.params
-  console.log(activationToken)
   const user = await User.findOne({ activationToken })
 
   if (!user) {
@@ -28,7 +31,7 @@ export const activateUser = async (req: Request, res: Response, next: NextFuncti
 }
 
 // resest the password
- export const resetUserPassword= async (req:Request, res:Response) => {
+export const resetUserPassword = async (req: Request, res: Response) => {
   const password = req.resetPassUser.password // we will return it from object in index file, not from body
   const forgotPasswordCode = req.resetPassUser.forgotPasswordCode
   const hashedPassword = await bcrypt.hash(password, 10)
@@ -45,7 +48,7 @@ export const activateUser = async (req: Request, res: Response, next: NextFuncti
   })
 }
 // forgot password
-export const forgotUserPassword= async (req:Request, res:Response, next:NextFunction) => {
+export const forgotUserPassword = async (req: Request, res: Response, next: NextFunction) => {
   const { email } = req.forgotPassUser
 
   try {
@@ -120,7 +123,7 @@ export const loginUser = async (req: Request, res: Response, next: NextFunction)
       email: existingUser.email,
       role: existingUser.role,
       firstName: existingUser.firstName,
-      lastName:existingUser.lastName
+      lastName: existingUser.lastName,
     },
     dev.auth.secretToken as string,
     {

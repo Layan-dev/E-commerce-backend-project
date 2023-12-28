@@ -21,6 +21,7 @@ export const getCartByUserId = async (req: Request, res: Response, next: NextFun
   try {
     const userId = req.params.userId
     const cart = await Cart.findOne({ userId }).populate('products')
+
     res.json(cart)
   } catch (error: any) {
     next(ApiError.notFound(error.message))
@@ -125,7 +126,7 @@ export const deleteCart = async (req: Request, res: Response, next: NextFunction
 
 export const addNewOrder = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { products, userId } = req.body
+    const { products, userId, cartId } = req.body
 
     const order = new Order({
       products,
@@ -134,6 +135,9 @@ export const addNewOrder = async (req: Request, res: Response, next: NextFunctio
     })
 
     await order.save()
+
+    await Cart.deleteOne({ _id: cartId })
+
     res.json({
       message: 'Order created successfully',
       order,

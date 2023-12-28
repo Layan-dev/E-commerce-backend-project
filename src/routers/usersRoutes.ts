@@ -18,12 +18,13 @@ import {
 import { checkAuth } from '../middlewares/checkAuth'
 import { checkRole } from '../middlewares/checkRole'
 import { validateUserUpdate } from '../validation/validateUserUpdate'
+import { checkOwnership } from '../middlewares/checkOwnership'
 
 const router = express.Router()
 
 router.get('/admin/getAllUsers', checkAuth, checkRole('ADMIN'), getUsers)
 
-router.get('/:userId', getUserById)
+router.get('/:userId', checkAuth, checkOwnership, getUserById)
 
 router.delete('/admin/deleteUser/:userId', checkAuth, checkRole('ADMIN'), deleteUser)
 

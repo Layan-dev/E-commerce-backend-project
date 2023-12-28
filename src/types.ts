@@ -1,6 +1,6 @@
 import mongoose, { Document } from 'mongoose'
 
-import { orderStatus } from './constants'
+import { ROLE, orderStatus } from './constants'
 
 export type OrderStatus = keyof typeof orderStatus
 
@@ -19,8 +19,7 @@ export type UserDocument = Document & {
   role: string
   isActive: Boolean
   activationToken: string | undefined
-  forgotPasswordCode: String| undefined
-  
+  forgotPasswordCode: String | undefined
 }
 
 export type CategoryDocument = Document & {
@@ -46,10 +45,9 @@ export type DecodedUser = {
   exp: number
 }
 
-export type Role = 'USER' | 'ADMIN'
+export type Role = keyof typeof ROLE
 
 export type CartDocument = Document & {
   name: string
   products: string[]
-  
 }

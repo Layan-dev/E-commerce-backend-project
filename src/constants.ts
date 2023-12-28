@@ -4,3 +4,8 @@ export const orderStatus = {
   delivered: 'delivered',
   shipped: 'shipped',
 } as const
+
+export const ROLE = {
+  ADMIN: 'ADMIN',
+  USER: 'USER',
+}
